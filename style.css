@@ -1,0 +1,42 @@
+#calcCanCon
+{
+    text-align: center;
+}
+
+#calcCan
+{
+    width: 750px;
+    height: 500px;
+}
+
+#inputCon
+{
+    position: relative;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#eqInputCon
+{
+    text-align: center;
+}
+
+#xCon
+{
+    position: absolute;
+    left: 10px;
+    width: 50px;
+}
+
+#yCon
+{
+    position: absolute;
+    right: 10px;
+    width: 50px;
+}
+
+.smallWidth
+{
+    width: 100%;
+}

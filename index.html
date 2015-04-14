@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Graph Calc!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="calc.js"></script>
+    </head>
+    <body>
+        <div id="calcCanCon">
+            <canvas id="calcCan"></canvas>
+        </div>
+        <div id="inputCon">
+            <div id="eqInputCon">
+                y = <input id="eqInput" type="text" name="user">
+                <input id="eqButton" type="submit" value="Submit" onclick="main()">
+            </div>
+            <div id="xCon">
+                xMin   <input id="xMinInput"   value="-10" type="text" class="smallWidth">
+                xMax   <input id="xMaxInput"   value="10"  type="text" class="smallWidth">
+                xScale <input id="xScaleInput" value="1"   type="text" class="smallWidth">
+            </div>
+            <div id="yCon">
+                yMin   <input id="yMinInput"   value="-10" type="text" class="smallWidth">
+                yMax   <input id="yMaxInput"   value="10"  type="text" class="smallWidth">
+                yScale <input id="yScaleInput" value="1"   type="text" class="smallWidth">
+            </div>
+        </div>
+    </body>
+</html>
